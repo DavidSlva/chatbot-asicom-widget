@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "buildDate": "2025-06-23T02:50:58.116Z",
+  "files": [
+    "smartbot.css",
+    "smartbot.es.js",
+    "smartbot.umd.js"
+  ],
+  "entryPoint": "src/index.js",
+  "formats": [
+    "umd",
+    "es"
+  ]
+}
