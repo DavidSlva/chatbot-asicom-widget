@@ -1,0 +1,38 @@
+{
+  "name": "smartbot-widget",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/smartbot.umd.js",
+  "module": "dist/smartbot.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:cdn": "node build.js",
+    "preview": "vite preview",
+    "clean": "rimraf dist",
+    "build:prod": "npm run clean && npm run build:cdn"
+  },
+  "keywords": [
+    "chatbot",
+    "widget",
+    "customer-service",
+    "ai",
+    "chat",
+    "support"
+  ],
+  "author": "ASICOM",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asicom/chatbot-widget"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.10",
+    "terser": "^5.43.1",
+    "vite": "^5.4.2"
+  }
+}
