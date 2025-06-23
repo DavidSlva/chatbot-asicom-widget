@@ -17,10 +17,10 @@ A modern, customizable chatbot widget for customer support and AI interactions. 
 
 ```html
 <!-- CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/smartbot-widget@1.0.0/dist/smartbot.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DavidSlva/chatbot-asicom-widget@v1.1/dist/smartbot.css">
 
 <!-- JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/smartbot-widget@1.0.0/dist/smartbot.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/DavidSlva/chatbot-asicom-widget@v1.1/dist/smartbot.umd.js"></script>
 ```
 
 ### Via npm
@@ -41,14 +41,14 @@ import { ChatbotWidget } from 'smartbot-widget';
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/smartbot-widget@1.0.0/dist/smartbot.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DavidSlva/chatbot-asicom-widget@v1.1/dist/smartbot.css">
 </head>
 <body>
     <!-- Container for the chatbot -->
     <div id="app"></div>
     
     <!-- Load the widget -->
-    <script src="https://cdn.jsdelivr.net/npm/smartbot-widget@1.0.0/dist/smartbot.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/DavidSlva/chatbot-asicom-widget@v1.1/dist/smartbot.umd.js"></script>
     <script>
         // Initialize the chatbot
         const chatbot = new SmartbotWidget('app');

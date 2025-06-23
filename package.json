@@ -1,7 +1,7 @@
 {
   "name": "smartbot-widget",
   "private": false,
-  "version": "1.0",
+  "version": "1.1.0",
   "type": "module",
   "main": "dist/smartbot.umd.js",
   "module": "dist/smartbot.es.js",
@@ -32,11 +32,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DavidSlva/widget-precomp-chat"
+    "url": "https://github.com/DavidSlva/chatbot-asicom-widget"
   },
-  "homepage": "https://github.com/DavidSlva/widget-precomp-chat#readme",
+  "homepage": "https://github.com/DavidSlva/chatbot-asicom-widget#readme",
   "bugs": {
-    "url": "https://github.com/DavidSlva/widget-precomp-chat/issues"
+    "url": "https://github.com/DavidSlva/chatbot-asicom-widget/issues"
   },
   "description": "A modern, customizable chatbot widget for customer support and AI interactions",
   "devDependencies": {
